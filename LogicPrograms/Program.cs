@@ -6,7 +6,7 @@ namespace LogicalProgramming
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose options \n 1.Fibonacci Series \t 2.Perfect Number ");
+            Console.WriteLine("Choose options \n 1.Fibonacci Series \t 2.Perfect Number \t3.Prime Number ");
             int option=Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -17,8 +17,10 @@ namespace LogicalProgramming
                 case 2:
                    PerfectNumber.CheckPerfectNumber();
                     break;
-                
-                default:
+                case 3:
+                    PrimeNumber.CheckPrimeNumber();
+                    break;
+                     default:
                     Console.WriteLine("Wrong Choice");
                     break;
 
