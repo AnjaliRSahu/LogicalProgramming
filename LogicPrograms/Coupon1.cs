@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgramming
 {
-    internal class Coupon
+    internal class Coupon1
     {
         public static void CheckCoupon()
         {
