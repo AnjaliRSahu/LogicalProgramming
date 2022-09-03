@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicPrograms
+namespace LogicalProgramming
 {
     internal class FibonacciSeries
     {
-
         public static void Fibonacci()
         {
             Console.WriteLine("Enter a number:");
@@ -20,7 +19,7 @@ namespace LogicPrograms
             if (a == 1)
                 Console.WriteLine(1);
             else
-                Console.WriteLine("Fibonacci Series of first {0} numbers are", a);
+            Console.WriteLine("Fibonacci Series of first {0} numbers are",a );
             {
                 Console.WriteLine();
                 for (int i = 1; i <= a; i++)
@@ -33,6 +32,5 @@ namespace LogicPrograms
             }
 
         }
-
     }
 }
